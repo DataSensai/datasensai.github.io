@@ -11,21 +11,21 @@
 	"webcomponents": [
 		{
 			"kind": "main",
-			"tag": "com-demo-gauge",
+			"tag": "xx-demo-gauge",
 			"url": "https://datasensai.github.io/box/box.js",
 			"integrity": "",
 			"ignoreIntegrity": true
 		},
 		{
 			"kind": "styling",
-			"tag": "com-demo-gauge-sps",
+			"tag": "xx-demo-gauge-sps",
 			"url": "https://datasensai.github.io/box/box_sps.js",
 			"integrity": "",
 			"ignoreIntegrity": true
 		},
 		{
 			"kind": "builder",
-			"tag": "com-demo-gauge-bps",
+			"tag": "xx-demo-gauge-bps",
 			"url": "https://datasensai.github.io/box/box_bps.js",
 			"integrity": "",
 			"ignoreIntegrity": true
