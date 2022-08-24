@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+
+<html lang="en" xmlns="http://www.w3.org/1999/xhtml">
+<head>
+    <meta charset=" utf-8">
+    <title></title>
+    <script src="https://unpkg.com/gojs/release/go.js"></script>
+    <script>
+        function init() {
+            var $ = go.GraphObject.make;
+            myDiagram = $(go.Diagram, "myDiagramDiv");
+            var nodeDataArray = [
+                {key: "Alpha", color: "lime"},
+                {key: "Beta", color: "cyan"}
+            ];
+            var linkDataArray = [
+                {to: "Beta", from: "Alpha"}
+            ];
+            myDiagram.model = new go.GraphLinksModel(nodeDataArray, linkDataArray);
+
+            myDiagram.nodeTemplate =
+                $(go.Node, "Auto",
+                    $(go.Shape, "RoundRectangle", {fill: "white"},
+                        new go.Binding("fill", "color")
+                    ),
+                    $(go.TextBlock, "text",
+                        new go.Binding("text", "key")
+                    )
+                );
+            myDiagram.linkTemplate =
+                $(go.Link,
+                    $(go.Shape,
+                        {toArrow: "Standard", stroke: null },
+                        new go.Binding("fill", "color")
+                    )
+                )
+        }
+    </script>
+
+</head>
+
+<body onload="init()">
+    <div id="myDiagramDiv" style="height: 400px; width: 400px; border: 1px solid black"></div>
+</body>
+</html>
