@@ -18,7 +18,7 @@
 		},
 		{
 			"kind": "styling",
-			"tag": "com-demo-gauge-sps",
+			"tag": "com-demo-box-sps",
 			"url": "https://datasensai.github.io/box/box_sps.js",
 			"integrity": "",
 			"ignoreIntegrity": true
