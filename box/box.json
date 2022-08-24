@@ -4,7 +4,7 @@
 	"name": "ANKR Demo Gauge",
 	"description": "A gauge demo",
 	"newInstancePrefix": "Gauge",
-	"icon": "https://github.com/DataSensai/SAC-CustomWidgetTesting/tree/main/box/icon.png",
+	"icon": "https://datasensai.github.io/box/icon.png",
 	"vendor": "Demo",
 	"eula": "EULA",
 	"license": "1.0",
