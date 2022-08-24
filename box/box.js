@@ -52,7 +52,7 @@
 		      </div>
 		    </div>
 		  </div>
-		      <div id="myDiagramDiv" style="height: 400px; width: 400px; border: 1px solid black"; fill: blue>Hello World</div>
+		         <div id="myDiagramDiv" style="height: 400px; width: 400px; border: 1px solid black;">Hello World</div>
 		  
 		</div>
 	`;
